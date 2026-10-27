@@ -14,19 +14,24 @@
     a. Main Camera: Objek kamera utama dengan skrip CameraFollow.cs yang
     bertugas mengikuti pergerakan mobil pikap dari sudut pandang belakang atas
     secara halus.
+   
     b. Directional Light: Sumber pencahayaan utama yang menghasilkan bayangan
     lingkungan secara dinamis.
+   
     c. Global Volume: Komponen pascapemrosesan grafis pada Universal Render
     Pipeline(URP).
+   
     d. Terrain: Objek permukaan tanah berkontur bukit yang dilapisi tekstur rumput
     dan tanah, dilengkapi komponen Terrain Collider untuk menangani kontak fisik
     ban dan mencegah mobil tembus ke bawah.
+   
     e. Trees (Vegetasi): Aset pepohonan model Low Poly Tree Pack yang disebarkan
     pada permukaan terrain untuk menghidupkan suasana lingkungan hutan dan
     memiliki Capsule Collider agar bisa ditabrak.
+   
     f. Pickup_Car: Objek kendaraan utama yang dilengkapi Rigidbody, Collider, dan
     skrip kendali Car.cs untuk menerima input arah dari pemain.
-3. HASIL PROJECT
+4. HASIL PROJECT
    
    a. Kamera view
    
